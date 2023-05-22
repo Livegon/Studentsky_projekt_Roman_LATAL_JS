@@ -1,0 +1,140 @@
+/* Styly pro celý dokument */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Styly pro záhlaví */
+
+header {
+    background-color: #1DA1F2;
+    padding: 20px;
+    color: white;
+}
+
+h1 {
+    margin: 0;
+}
+
+/* Styly pro obsah */
+
+#content {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Styl pro tabulku */
+#insuranceTableContainer {
+    margin-top: 20px;
+    flex: 1;
+    min-width: 640px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #ccc;
+    font-family: Arial, sans-serif;
+}
+
+thead {
+    background-color: #f5f8fa;
+}
+
+th {
+    padding: 10px;
+    text-align: left;
+    font-weight: bold;
+    border-bottom: 1px solid #ccc;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f5f8fa;
+}
+
+td {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+/* Styl pro formulář */
+#insuranceForm {
+    margin-top: 20px;
+    flex: 1;
+    border: 1px solid #ccc;
+    border-radius: 1em;
+    padding: 20px;
+    background-color: rgba(167, 167, 167, 0.308);
+}
+
+#insuranceForm h2 {
+    margin-top: 0;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+ input[type="text"],
+ input[type="number"],
+ input[type="tel"],
+select {
+    width: 80%;
+    padding: 5px;
+    font-size: 14px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+}
+
+button[type="submit"] {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #1da1f2;
+    color: #fff;
+    border: none;
+    border-radius: 25em;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #0c8de4;
+}
+
+/* Styly pro nadpisy */
+
+h2 {
+    margin-top: 20px;
+}
+
+/* Styly pro seznam */
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+/* Styly pro zápatí */
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #a3a3a3;
+    padding: 10px;
+    text-align: center;
+}
+  
+
+/* CELÝ PROGRAM JE PRO ÚČEL VZDĚLÁVÁNÍ V RÁMCI REKVALIFIKACE PROGRAMÁTOR WWW APLIKACÍ JAVASCRIPT A NESLOUŽÍ KE KOMERČNÍMU ČI OSOBNÍMU UŽITÍ */
+/* programátor Roman Látal / LivegonCZE */

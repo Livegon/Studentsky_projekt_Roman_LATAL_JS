@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Studentský projekt Roman Látal" />
+    <meta name="keywords" content="Projekt, Student, Roman, Látal, LiveGonCZE, itnetwork" />
+    <meta name="author" content="LiveGonCZE" />
+    <title>Studenský Projekt - Evidence pojištěných</title>
+    <link rel="stylesheet" href="./CSS/style.css">
+</head>
+<body>
+<header>
+    <h1>Studentský projekt - Evidence pojištěných</h1>
+</header>
+
+<div id="content">
+    <form id="insuranceForm"> <!-- Formulář pro vložení nového pojistného -->
+        <label for="firstName">Jméno:</label>
+        <input type="text" id="firstName" required><br>
+
+        <label for="lastName">Příjmení:</label>
+        <input type="text" id="lastName" required><br>
+
+        <label for="age">Věk:</label>
+        <input type="number" id="age" required><br>
+
+        <label for="phoneNumber">Telefonní číslo:</label>
+        <input type="tel" id="phoneNumber" required><br>
+
+        <button type="submit">Vytvořit pojištěného</button>
+    </form>
+
+    <div id="insuranceTableContainer"> <!-- Seznam uložených pojištěných -->
+        <h2>Seznam pojištěných osob</h2>
+        <table id="insuranceTable">
+            <thead>
+            <tr>
+                <th>Jméno</th>
+                <th>Příjmení</th>
+                <th>Věk</th>
+                <th>Telefonní číslo</th>
+            </tr>
+            </thead>
+            <tbody id="insuranceTable"></tbody>
+        </table>
+    </div>
+</div>
+<footer>
+    &copy; 2023 Roman Látal 
+    <!--CELÝ PROGRAM JE PRO ÚČEL ÚSPĚŠNÉHO DOKONČENÍ REKVALIFIKACE PROGRAMÁTOR WWW APLIKACÍ JAVASCRIPT A NESLOUŽÍ KE KOMERČNÍMU ČI OSOBNÍMU UŽITÍ-->
+</footer>
+
+
+<script src="./JS/insurance.js"></script>
+<script src="./JS/app.js"></script>
+</body>
+</html>
